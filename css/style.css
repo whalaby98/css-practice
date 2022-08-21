@@ -1,0 +1,184 @@
+
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    line-height: 1.6em;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color: orange;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.button{
+padding: 20px;
+background-color: black;
+color: white;
+border: solid 5px red;    
+}
+
+.button:hover{
+background-color: red;
+color: white;
+}
+
+.clr{
+    clear:both;
+}
+.block{
+    padding: 20px;
+    background-color: yellow;
+    color: black;
+    border: solid 5px red;
+    float:left;
+    width: 33.3%;
+    padding-bottom: 100px;
+    box-sizing:border-box;
+}
+
+.box-1{
+    background-color: #333333;
+    color: white;
+  border: 5px red solid;
+  border-bottom-width: 10px;
+  border-top-style: dotted;
+  padding: 20px;
+  
+
+}
+
+.box-1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.box-2{
+    border: 5px yellow dotted;
+    padding: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+.categories{
+    border: 5px grey solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.categories h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.categories ul{
+    padding-left: 20px;
+    padding: 0;
+    list-style: square;
+}
+
+.categories li{
+    padding:8px;
+    border-bottom: dotted 3px red;
+    list-style-image: url(../csscheatsheet/images/check.png);
+}
+
+.my-form{
+    padding:20px;
+    border-top: solid 5px red;
+    padding-top: 20px;
+
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea, .my-form input[type="email"]{
+    padding:8px;
+    width:100%;
+}
+
+#main-block{
+    float:left;
+    width:70%;
+    padding-bottom: 200px;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background-color:#333333;
+    color: #f4f4f4;
+    padding: 15px;
+    padding-bottom: 50px;
+    box-sizing:border-box;
+
+}
+
+.p-box{
+    width:800px;
+    height:500px;
+    border: 1px solid black;
+    position: relative;
+    background-image:url(../csscheatsheet/images/backgroundimg.jpg);
+    background-repeat:no-repeat ;
+    background-position: center top;
+}
+
+.p-box h1{
+    position:absolute;
+    top:40px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    top:300px;
+    left:300px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 200px;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: yellow;
+}
+
+.my-list li:nth-child(4){
+    background: blue;
+}
